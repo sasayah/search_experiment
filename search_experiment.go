@@ -46,8 +46,8 @@ func (page *ExPage) Logon(info *LogonInfo) {
 }
 
 func main() {
-	your_ID := `7050375973@utac.u-tokyo.ac.jp`
-	your_Pass := `Ponyo298355!`
+	your_ID := `IDを入力してください`
+	your_Pass := `Passwordを入力してください`
 	// Chromeを利用することを宣言
 	agoutiDriver := agouti.ChromeDriver()
 	agoutiDriver.Start()
